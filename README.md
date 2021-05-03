@@ -1,10 +1,4 @@
 # GVAW-Webproject
 Garuda Virtual Air wing - Website project
 
-CHANGELOG
-
-03.05.21
-  -ADDED HEADER
-  -ADDED NAVBAR
-  |KNOWN ISSUE:
-    -iNVISIBLE .SUBMENU COULD BE TRIGERED WITH FALSE POSITION
+Changelog in every description of uploaded file
