@@ -65,72 +65,55 @@ header a{
     filter: opacity(50%);
 }
 
-/* NAVBAR */
+ /* NAVBAR */
 #navigationbar ul{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    background: #363636;
 }
 #navigationbar li{
     list-style: none;
 }
-#navbar{
-    background: #363636;
+#main-nav{
     width: 500px;
-    height: 30px;
 }
-#navbar a{
+#main-nav a{
     color: #eee;
     background: #363636;
+    display: block;
     height: 30px;
-    font-family: 'lato';
-    font-size: 0.75rem;
+    font-family: open Arial, Helvetica, sans-serif;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     transition: background 0.4s;
 }
-#navbar a:hover{
+
+#main-nav a:hover{
     background: #262626;
 }
-#navbar ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    text-align: center;
+
+#main-nav ul{
     list-style: none;
-    height: 30px;
-    align-items: center;
+    display: flex;
 }
-#navbar li{
-    width: 100%;
+
+#main-nav li{
+    width: 250px;
+    text-align: center;
     position: relative;
 }
-/* SUBMENU */
-/* #navbar li:hover .submenu > li{
-    display: block;
-    top: 0px;
-}
-.submenu li{
-    display: none;
-    position: absolute;
-    top: 0px;
-}
-.submenu{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    width: 200px;
-}
 
-.submenu ul{
-    display: none;
-} */
-#navbar li:hover .submenu > li{
+#main-nav li:hover .submenu > li{
     display: block;
     top: 0px;
-    background-color: #363636 ;
+    background-color: ;
+}
+.submenu a{
+    height: 30px;
 }
 
 .submenu li{
@@ -142,12 +125,19 @@ header a{
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 200px;
+    width: 300px;
 }
+
+.submenu li{
+    position: relative;
+}
+
+
 /* SOSMED */
 #sosmed{
     display: flex;
     flex-direction: row;
+    background: ;
 }
 .SocialMedia img{
     height: 25px;
